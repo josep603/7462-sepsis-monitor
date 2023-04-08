@@ -17,7 +17,7 @@ This report was created by **Bibin Joseph** on `r format(Sys.time(), '%A, %B %d,
 Authenticate Google Drive API
 
 ```{r,message=FALSE}
-drive_auth()
+#drive_auth()
 ```
 
 Reading the Latest physiological data from `Google Drive`
