@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/20 * * * *'
   push:
     branches: main
   workflow_dispatch:
@@ -49,8 +49,8 @@ jobs:
       - name: Render document
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: gfm
-          path: README.qmd
+          to: html
+          path: Assignment7.qmd
 
       - name: Setup git config
         run: |
