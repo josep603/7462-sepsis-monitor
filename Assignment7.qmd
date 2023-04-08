@@ -1,6 +1,7 @@
 ---
 title: "Sepsis Report"
-format: gfm
+format: html
+output: html_document
 execute: 
   eval: true
   echo: true
