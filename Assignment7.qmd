@@ -24,7 +24,7 @@ library(patchwork)
 library(DT)
 ```
 
-This report was created by **Bibin Joseph** on `r format(Sys.time(), '%A, %B %d, %Y at %I:%M %p')`.
+This report was created by **Bibin Joseph** on `r format(Sys.time(), '%A, %B %d, %Y at %I:%M %p'', tz = 'America/Chicago')`.
 
 De Authenticate Google Drive API
 
