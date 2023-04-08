@@ -26,6 +26,12 @@ library(DT)
 
 This report was created by **Bibin Joseph** on `r format(Sys.time(), '%A, %B %d, %Y at %I:%M %p')`.
 
+De Authenticate Google Drive API
+
+```{r,message=FALSE}
+drive_deauth()
+```
+
 Reading the Latest physiological data from `Google Drive`
 
 ```{r,message=FALSE}
