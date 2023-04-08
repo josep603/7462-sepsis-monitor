@@ -49,7 +49,7 @@ jobs:
       - name: Render document
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: html
+          to: gfm
           path: Assignment7.qmd
 
       - name: Setup git config
