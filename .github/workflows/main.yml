@@ -40,7 +40,7 @@ jobs:
                any::forcats
                any::tidyr
                any::lubridate
-               any::purr
+               any::purrr
                any::patchwork
                any::DT
                any::timeDate
