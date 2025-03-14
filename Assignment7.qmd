@@ -1,7 +1,9 @@
 ---
 title: "Sepsis Report"
-format: pdf
-output: pdf_document
+format:
+  pdf:
+    toc: true
+    number-sections: true
 execute: 
   eval: true
   echo: true
